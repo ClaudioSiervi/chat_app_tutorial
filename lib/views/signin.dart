@@ -11,6 +11,17 @@ class _SignInState extends State<SignIn> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBarMain(context),
-    ); // Scaffold
+      body: Container(
+        padding: EdgeInsets.symmetric(horizontal: 24),
+        child: Column(
+          children: [
+            TextField(
+              decoration: textFieldInputDecoration("email"),
+            ),
+            TextField(decoration: textFieldInputDecoration("password"))
+          ],
+        ),
+      ),
+    );
   }
 }
