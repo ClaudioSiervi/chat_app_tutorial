@@ -22,3 +22,17 @@ InputDecoration textFieldInputDecoration(String hintText) {
     ),
   );
 }
+
+TextStyle simpleTextFieldStyle() {
+  return TextStyle(
+    color: Colors.white,
+    fontSize: 16,
+  );
+}
+
+TextStyle mediumTextFieldStyle() {
+  return TextStyle(
+    color: Colors.white,
+    fontSize: 17,
+  );
+}
